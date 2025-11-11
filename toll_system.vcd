@@ -1,0 +1,272 @@
+$date
+	Mon Nov 10 17:07:54 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_toll_system $end
+$var wire 8 ! toll_deducted [7:0] $end
+$var wire 3 " state [2:0] $end
+$var wire 16 # new_balance [15:0] $end
+$var wire 1 $ gate_open $end
+$var wire 8 % display_msg [7:0] $end
+$var reg 16 & card_balance [15:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( reset $end
+$var reg 1 ) vehicle_detected $end
+$var reg 2 * vehicle_type [1:0] $end
+$scope module uut $end
+$var wire 16 + card_balance [15:0] $end
+$var wire 1 ' clk $end
+$var wire 1 ( reset $end
+$var wire 1 ) vehicle_detected $end
+$var wire 2 , vehicle_type [1:0] $end
+$var parameter 3 - BALANCE $end
+$var parameter 2 . BIKE $end
+$var parameter 32 / BIKE_TOLL $end
+$var parameter 2 0 CAR $end
+$var parameter 32 1 CAR_TOLL $end
+$var parameter 3 2 CHECK $end
+$var parameter 3 3 DEDUCT $end
+$var parameter 3 4 DENY $end
+$var parameter 3 5 IDLE $end
+$var parameter 3 6 OPEN_GATE $end
+$var parameter 2 7 TRUCK $end
+$var parameter 32 8 TRUCK_TOLL $end
+$var reg 8 9 display_msg [7:0] $end
+$var reg 1 $ gate_open $end
+$var reg 16 : new_balance [15:0] $end
+$var reg 3 ; next_state [2:0] $end
+$var reg 3 < state [2:0] $end
+$var reg 8 = toll_deducted [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100100 8
+b1 7
+b100 6
+b0 5
+b101 4
+b11 3
+b1 2
+b110010 1
+b0 0
+b10100 /
+b10 .
+b10 -
+$end
+#0
+$dumpvars
+b0 =
+b0 <
+b0 ;
+b0 :
+b100000 9
+b0 ,
+b0 +
+b0 *
+0)
+1(
+0'
+b0 &
+b100000 %
+0$
+b0 #
+b0 "
+b0 !
+$end
+#5
+1'
+#10
+b1 ;
+0'
+1)
+b11001000 &
+b11001000 +
+0(
+#15
+b10 ;
+b1 "
+b1 <
+b1010111 %
+b1010111 9
+1'
+#20
+b10 ;
+0'
+0)
+#25
+b11 ;
+b1010000 %
+b1010000 9
+b110010 !
+b110010 =
+b10 "
+b10 <
+1'
+#30
+0'
+#35
+b100 ;
+b11 "
+b11 <
+b1000011 %
+b1000011 9
+1'
+#40
+0'
+#45
+b0 ;
+b1000100 %
+b1000100 9
+b10010110 #
+b10010110 :
+b100 "
+b100 <
+1'
+#50
+0'
+#55
+b0 "
+b0 <
+b1001111 %
+b1001111 9
+1$
+1'
+#60
+0'
+#65
+b1010111 %
+b1010111 9
+0$
+b0 !
+b0 =
+1'
+#70
+b1 ;
+0'
+1)
+b1 *
+b1 ,
+b10010110 &
+b10010110 +
+#75
+b10 ;
+b1 "
+b1 <
+1'
+#80
+b10 ;
+0'
+0)
+#85
+b11 ;
+b1010000 %
+b1010000 9
+b1100100 !
+b1100100 =
+b10 "
+b10 <
+1'
+#90
+0'
+#95
+b100 ;
+b11 "
+b11 <
+b1000011 %
+b1000011 9
+1'
+#100
+0'
+#105
+b0 ;
+b1000100 %
+b1000100 9
+b110010 #
+b110010 :
+b100 "
+b100 <
+1'
+#110
+0'
+#115
+b0 "
+b0 <
+b1001111 %
+b1001111 9
+1$
+1'
+#120
+0'
+#125
+b1010111 %
+b1010111 9
+0$
+b0 !
+b0 =
+1'
+#130
+b1 ;
+0'
+1)
+b10 *
+b10 ,
+b1010 &
+b1010 +
+#135
+b10 ;
+b1 "
+b1 <
+1'
+#140
+b10 ;
+0'
+0)
+#145
+b101 ;
+b1010000 %
+b1010000 9
+b10100 !
+b10100 =
+b10 "
+b10 <
+1'
+#150
+0'
+#155
+b0 ;
+b101 "
+b101 <
+b1000011 %
+b1000011 9
+1'
+#160
+0'
+#165
+b1011000 %
+b1011000 9
+b1010 #
+b1010 :
+b0 "
+b0 <
+1'
+#170
+0'
+#175
+b1010111 %
+b1010111 9
+b0 !
+b0 =
+1'
+#180
+0'
+#185
+1'
+#190
+0'
